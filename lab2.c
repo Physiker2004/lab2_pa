@@ -4,7 +4,7 @@
 int function(int x){
     while (x>0){
         x=x-2;
-        x=function(x);
+        x=function(x); //eu doar am comentat linia asta
     }
 	return x;
 }
@@ -21,3 +21,4 @@ int main(){
 	return 0;
 }
 
+//horia a fost aici
